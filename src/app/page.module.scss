@@ -1,0 +1,60 @@
+$colorBlack: #1d1d1d;
+
+.wrapper {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding: 81px 12px 116px 12px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 113px;
+    
+    h1 {
+      max-width: 564px;
+      font-size: 48px;
+      font-weight: 600;
+      color: $colorBlack;
+      margin: 0;
+    }
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 123px;
+    margin-bottom: 98px;
+    
+    .input {
+      margin-bottom: 25px;
+
+      &_last {
+        margin-bottom: 48px;
+      }
+
+      &_right {
+        margin-bottom: 31px;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    .btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 48px;
+
+      display: flex;
+      align-items: center;
+      column-gap: 24px;
+    }
+  }
+}
